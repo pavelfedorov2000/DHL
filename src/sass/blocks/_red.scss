@@ -1,0 +1,18 @@
+.red {
+    min-height: 350px;
+    background-color: $main-color;
+    padding: 100px 0;
+    &__wrapper {
+        @include flex;
+    }
+    &__text {
+        width: 740px;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.48px;
+        margin-top: 40px;
+    }
+}

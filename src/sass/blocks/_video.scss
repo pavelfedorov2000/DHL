@@ -1,0 +1,9 @@
+.video {
+    position: relative;
+    min-height: 700px;
+    background: url('../img/bg/video_bg.png') center (center/cover) no-repeat;
+    padding-top: 150px;
+    &__img {
+        width: 270px;
+    }
+}

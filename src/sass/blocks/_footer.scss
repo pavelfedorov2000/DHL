@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    width: 100%;
+    min-height: 310px;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        width: 1090px;
+        margin: 60px 0 0 60px;
+    }
+    &__menu {
+        width: 215px;
+    }
+    &__stripe {
+        display: block;
+        width: 40px;
+        height: 310px;
+        background-color: $main-color;
+        &_yellow {
+            background-color: $second-color;
+        }
+    }
+    &__img {
+        max-width: 20%;
+        height: 310px;
+    }
+}

@@ -1,0 +1,23 @@
+.logos {
+    min-height: 270px;
+    padding: 70px 0;
+    &__wrapper {
+        @include flex;
+    }
+    &__item {
+        @include center;
+        width: 23%;
+        height: 130px;
+        border: 2px solid rgba(186, 0, 0, 0.1);
+        transition: .3s all;
+        &:hover {
+            background-color: #f4f4f4;
+            border: 2px solid #ba0000;
+        }
+    }
+    &__img {
+        width: 233px;
+        max-width: 100%;
+        height: auto;
+    }
+}

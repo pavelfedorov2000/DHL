@@ -1,0 +1,44 @@
+.services {
+    min-height: 730px;
+    padding: 100px 0;
+    &__titles {
+        position: relative;
+        margin-bottom: 80px;
+    }
+    &__fade {
+        font-size: 150px;
+        font-weight: 700;
+        line-height: 109px;
+        color: #f8f8f8;
+        text-transform: uppercase;
+        letter-spacing: 4.5px;
+    }
+    &__header {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        color: $main-color;
+    }
+    &__more {
+        color: #222222;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.48px;
+        text-decoration: none;
+        display: block;
+        margin-top: 20px;
+        i {
+            color: $main-color;
+        }
+    }
+    &__img {
+        width: 270px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}

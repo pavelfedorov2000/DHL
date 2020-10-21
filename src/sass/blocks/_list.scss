@@ -1,0 +1,50 @@
+.list {
+    list-style-type: none;
+    color: #777777;
+    margin-top: 30px;
+    &__item {
+        @include descr;
+        margin-top: 14px;
+        &:first-child {
+            margin-top: 0;
+        }
+        i {
+            color: $second-color;
+        }
+        &_accordion {
+            color: #ffffff;
+            margin-top: 10px;
+            line-height: 10px;
+            i {
+                color: $second-color;
+            }
+        }
+        &_footer {
+            letter-spacing: 0.42px;
+            text-transform: uppercase;
+            i {
+                color: $main-color;
+            }
+            a {
+                color: #777777;
+                font-weight: 700;
+                text-decoration: none;
+                transition: .2s all;
+                &:hover {
+                    color: $second-color;
+                }
+            }
+            &_social {
+                a:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+    &_accordion {
+        margin-top: 20px;
+    }
+    &_footer {
+        margin-top: 40px;
+    }
+}

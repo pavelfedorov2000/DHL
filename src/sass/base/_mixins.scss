@@ -1,0 +1,20 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex {
+    @include center;
+    justify-content: space-between;
+}
+@mixin btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+@mixin descr {
+    color: #777777;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+}

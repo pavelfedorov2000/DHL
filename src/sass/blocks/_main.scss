@@ -1,0 +1,66 @@
+.main {
+    min-height: 800px;
+    background: url('../img/bg/main_bg.jpg') center (center/cover) no-repeat;
+    padding: 180px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 748px;
+        height: 440px;
+    }
+    &__title {
+        width: 440px;
+        color: #ffffff;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 2.1px;
+        &:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: $second-color;
+            margin-top: 40px;
+        }
+    }
+    &__descr {
+        color: $second-color;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+    }
+    &__list {
+        @include flex;
+        width: 453px;
+        list-style-type: none;
+    }
+    &__adv {
+        position: relative;
+        font-size: 20px;
+        color: #ffffff;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -35px;
+            display: block;
+            width: 3px;
+            height: 3px;
+            border-radius: 100%;
+            background-color: $second-color;
+        }
+        &:last-child {
+            &:after {
+                display: none;
+            }
+        }
+    }
+    &__buttons {
+        display: flex;
+    }
+}

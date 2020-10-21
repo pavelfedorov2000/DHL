@@ -1,0 +1,32 @@
+.title {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    &_main {
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: 2.1px;
+    }
+    &_fade {
+        position: relative;
+        font-size: 150px;
+        line-height: 150px;
+        text-transform: uppercase;
+        letter-spacing: 4.5px;
+        color: #f8f8f8;
+    }
+    &_red {
+        color: $main-color;
+    }
+    &_video {
+        margin-left: -60px;
+    }
+    &_upper {
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+    }
+}
